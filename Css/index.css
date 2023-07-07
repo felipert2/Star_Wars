@@ -27,7 +27,9 @@ body {
     grid-template-areas:
     "cabecalho cabecalho cabecalho "    
     "carrosel carrossel carrossel"   
-    "carrosel carrossel carrossel"  
+    "carrosel carrossel carrossel" 
+    "carrosel2 carrossel2 carrossel2"  
+    "carrosel2 carrossel2 carrossel2"  
     "esquerdo section1  direito"
     "esquerdo section1  direito"
     "esquerdo section2  direito"
@@ -153,9 +155,7 @@ width: 100%;
 }
 
 
-    .carrosel2{
-        display: none;
-    }
+  
 
     #navegacao__left{
         display: none;

@@ -1,8 +1,19 @@
 .carrosel{
+    grid-area: carrossel2;       
+   text-align: center;     
+   margin: 0 14em 1em 5em;
+}
+
+.carrosel2{
     grid-area: carrossel;       
    text-align: center;     
    margin: 0 14em 1em 5em;
 }
+
+#bulets{
+    margin-bottom: 22px;
+}
+
 
 .swiper-slide img {    
 width: 100%;
@@ -18,10 +29,13 @@ height: 500px;
     margin-right: 0;
 }
 
-.carrossel__titulo{
+.carrossel__titulo,.carrossel__titulo2{
     display: none;
 }
 
+.carrosel__nome__personagem{
+    text-transform: uppercase;
+}
 
 
 @media screen and (min-width: 822px) and (max-width: 1600px) {
@@ -95,6 +109,8 @@ background-color:  #F6DA33;
     display: block;
     grid-area: carrossel2;
     margin-bottom: 0.5em;
+    width: 100%;
+    margin: 0 0 1em 0;
    }
 
    .carrossel__titulo2{
