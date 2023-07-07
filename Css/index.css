@@ -79,13 +79,6 @@ body {
     font-weight: 700;   
 }
 
-.lista-menu__link:hover{
-    border-radius: 10px;
-    background:  #F6DA33;
-     box-shadow: 0 0 5px  #F6DA33, 0 0 25px  #F6DA33, 0 0 50px #F6DA33, 0 0 200px  #F6DA33;
-     color: black ;  
-     padding: 10px;
-}
 
 
 

@@ -71,6 +71,8 @@ a#red:hover{
         margin: 1em 0;
     }
 
+ 
+
 .container__cabecalho-mobile{   
     display: block;
     display: flex;
@@ -124,7 +126,7 @@ a#red:hover{
     .lista-menu__link{
         text-transform: uppercase; 
         text-decoration: none; 
-        color: #F6DA33;
+        color: #F6DA33 !important;
         font-weight: 800;
         font-size: 25px;
         
